@@ -21,7 +21,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 .visually-hidden {
   position: absolute;
@@ -179,7 +178,8 @@ ul {
   gap: 24px;
 }
 .strategy-list-item {
-  width: 264px;
+  max-width: 264px;
+  width: calc((100%-72px) / 4);
 }
 
 .strategy-list-item-title {
@@ -266,14 +266,14 @@ ul {
   margin-bottom: 48px;
 }
 .portfolio-list-item {
-  /*border: 1px solid #E7E9FC;*/
-  background: var(--WHITE, #fff);
-  width: 360;
-  /*width: calc((100%-24px *2) / 3);*/
+  /*border: 1px solid #e7e9fc;*/
+  background-color: #fff;
+  max-width: 360;
+  width: calc((100%-48px) / 3);
   padding-bottom: 32px;
-
   border-radius: 0px 0px 4px 4px;
 }
+
 .portfolio-list-item-image {
   margin-bottom: 32px;
 }
