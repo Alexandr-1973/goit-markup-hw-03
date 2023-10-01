@@ -181,7 +181,7 @@ ul {
 }
 .strategy-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .strategy-list-item {
   max-width: 264px;
@@ -268,13 +268,14 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 24px;
 }
 .portfolio-list-item {
   background-color: #fff;
   max-width: 360;
   width: calc((100% - 48px) / 3);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 48px;
 }
 .portfolio-list-item:nth-child(n + 4) {
   margin-bottom: 0;
